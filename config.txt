@@ -1,0 +1,10 @@
+{
+    "username": "xxx_xxx01",
+    "password": "xxxxxxxxx",
+    "semester": "Winter 2024",
+    "check_code": "0000",
+    "check_code1": "0000",
+    "check_code2": "0000",
+    "email": "your gmail being forwarded",
+    "email_password": "Google Apps Password"
+}
