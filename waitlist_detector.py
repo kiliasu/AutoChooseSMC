@@ -157,7 +157,7 @@ def main():
                 config = load_config("config.txt")
                 updated_check_code = config["check_code"]
                 notify_discord(f"检测到Waitlist更新! 正在添加课程{updated_check_code}")
-                subprocess.run(["python", "loginv8.py"])
+                subprocess.run(["python", "login.py"])
                 # 检测到相关邮件后，退出检测循环/Exit the detection loop after detecting the relevant email
                 return
 
