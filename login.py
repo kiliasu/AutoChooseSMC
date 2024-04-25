@@ -105,6 +105,7 @@ for attempt in range(MAX_RETRIES):
             continue_add_button = browser.find_element(By.ID, "B7212605618119480274")
             continue_add_button.click()
         except:
+            print("no second confirmation")
             # If not found, continue with the original logic/如果未找到，继续使用原始逻辑
             pass
 
